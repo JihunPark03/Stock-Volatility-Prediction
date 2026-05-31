@@ -1,0 +1,48 @@
+{
+  "precision": 0.42592592592592593,
+  "recall": 0.21100917431192662,
+  "f1_score": 0.2822085889570552,
+  "roc_auc": 0.620482648583965,
+  "confusion_matrix": [
+    [
+      429,
+      31
+    ],
+    [
+      86,
+      23
+    ]
+  ],
+  "tickers": [
+    "AAPL"
+  ],
+  "training_rows": 2274,
+  "test_rows": 569,
+  "training_end": "2024-02-13",
+  "test_start": "2024-02-14",
+  "volatility_threshold": 0.019368771717417726,
+  "positive_rate_train": 0.25021987686895336,
+  "positive_rate_test": 0.19156414762741653,
+  "top_shap_features": [
+    {
+      "feature": "volatility_20d",
+      "mean_abs_shap": 0.5864104847387634
+    },
+    {
+      "feature": "high_low_range",
+      "mean_abs_shap": 0.49132316492087014
+    },
+    {
+      "feature": "volatility_5d",
+      "mean_abs_shap": 0.3102685863075046
+    },
+    {
+      "feature": "ma_20d_ratio",
+      "mean_abs_shap": 0.30576798135441996
+    },
+    {
+      "feature": "open_close_range",
+      "mean_abs_shap": 0.2532579879756314
+    }
+  ]
+}
