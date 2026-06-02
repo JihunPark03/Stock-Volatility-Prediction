@@ -5,6 +5,16 @@ main application predicts whether a stock is likely to enter a high-volatility
 period over the next five trading days and displays the result in a web
 dashboard.
 
+## Website Screenshots
+
+### Dashboard Overview
+
+![Dashboard overview](assets/screenshots/Screenshot%202026-06-02%20at%2010.49.29.png)
+
+### Prediction Results
+
+![Prediction results](assets/screenshots/Screenshot%202026-06-02%20at%2010.50.13.png)
+
 ## Overview
 
 The project uses daily OHLCV market data from [Stooq](https://stooq.com/) and a
