@@ -55,7 +55,8 @@ def fetch_stock_data(
             raise RuntimeError(
                 "Stooq CSV downloads require an API key. Visit "
                 f"https://stooq.com/q/d/?s={symbol}&get_apikey, complete the "
-                "captcha, and export STOOQ_API_KEY from the CSV download URL."
+                "captcha, and place STOOQ_API_KEY from the CSV download URL "
+                "in the project's .env file."
             ) from exc
         raise
     if frame.empty:

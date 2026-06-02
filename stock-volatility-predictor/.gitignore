@@ -3,3 +3,6 @@ __pycache__/
 .mplconfig/
 .env
 .venv/
+web/node_modules/
+web/.next/
+web/.env.local

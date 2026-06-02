@@ -109,6 +109,26 @@ python -m src.predict --ticker AAPL
 The output is a risk probability and a binary prediction. This example is for
 education and experimentation, not investment advice.
 
+## Web dashboard
+
+Start the FastAPI prediction service:
+
+```bash
+uvicorn src.api:app --reload --port 8000
+```
+
+In another terminal, install and run the Next.js dashboard:
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000), enter one or more NASDAQ
+symbols separated by commas or spaces, and run the analysis. The dashboard
+shows an individual five-day volatility risk prediction for every symbol.
+
 ## Project structure
 
 ```text
@@ -125,4 +145,5 @@ stock-volatility-predictor/
   models/
   notebooks/
   reports/
+  web/
 ```
